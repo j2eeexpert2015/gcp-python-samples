@@ -1,0 +1,4 @@
+apache-beam==2.49.0
+apache-beam[gcp]==2.49.0
+apache-airflow[gcp]==2.1.4
+

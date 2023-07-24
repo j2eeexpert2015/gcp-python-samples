@@ -1,0 +1,5 @@
+python -m dataflow_sample.py \
+    --region us-central1 \
+    --runner DataflowRunner \
+    --project sanguine-anthem-393416 \
+    --temp_location gs://gcpsampleall/gcp_python/temp
