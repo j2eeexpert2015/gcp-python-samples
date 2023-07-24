@@ -34,7 +34,8 @@ pipeline_options = PipelineOptions([
     '--staging_location=gs://gcpsampleall/gcp_python/staging',
     '--temp_location=gs://gcpsampleall/gcp_python/temp',
     '--region=us-central1',
-    '--requirements_file=gs://gcpsampleall/gcp_python/dataflow/jobs/requirements.txt',
+    '--flexrs_goal=COST_OPTIMIZED',  # Add this line
+    #'--requirements_file=gs://gcpsampleall/gcp_python/dataflow/jobs/requirements.txt',
 ])
 
 
