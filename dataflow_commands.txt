@@ -3,3 +3,10 @@ python -m dataflow_sample.py \
     --runner DataflowRunner \
     --project sanguine-anthem-393416 \
     --temp_location gs://gcpsampleall/gcp_python/temp
+
+python -m dataflow_sample.py --region us-central1 --runner DataflowRunner --project sanguine-anthem-393416 --temp_location gs://gcpsampleall/gcp_python/temp
+python dataflow_sample2.py --runner DirectRunner
+python dataflow_sample2.py --region us-central1 --runner DataflowRunner --project sanguine-anthem-393416
+python dataflow_sample2.py --region us-central1 --runner DataflowRunner --project sanguine-anthem-393416 --gcpTempLocation gs://gcpsampleall/gcp_python/staging
+python dataflow_sample2.py --region us-central1 --runner DataflowRunner --project sanguine-anthem-393416 --staging-location gs://gcpsampleall/gcp_python/staging
+python dataflow_sample2.py --region us-west1 --runner DataflowRunner --project sanguine-anthem-393416 --staging-location gs://gcpsampleall/gcp_python/staging
