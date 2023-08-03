@@ -10,3 +10,6 @@ python dataflow_sample2.py --region us-central1 --runner DataflowRunner --projec
 python dataflow_sample2.py --region us-central1 --runner DataflowRunner --project sanguine-anthem-393416 --gcpTempLocation gs://gcpsampleall/gcp_python/staging
 python dataflow_sample2.py --region us-central1 --runner DataflowRunner --project sanguine-anthem-393416 --staging-location gs://gcpsampleall/gcp_python/staging
 python dataflow_sample2.py --region us-west1 --runner DataflowRunner --project sanguine-anthem-393416 --staging-location gs://gcpsampleall/gcp_python/staging
+
+python dataflow_sample2.py --region us-central1 --runner DataflowRunner --project sanguine-anthem-393416 --staging-location gs://gcpsampleall/gcp_python/staging --num_workers=1
+python dataflow_sample2.py --region us-central1 --worker_zone us-central1-a --runner DataflowRunner --project sanguine-anthem-393416 --staging_location gs://gcpsampleall/gcp_python/staging --temp_location gs://gcpsampleall/gcp_python/temp
