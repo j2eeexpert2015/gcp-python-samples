@@ -1,4 +1,8 @@
 apache-beam==2.49.0
 apache-beam[gcp]==2.49.0
 apache-airflow[gcp]==2.1.4
+requests-toolbelt==1.0.0
+google-auth==2.19.1
+google-cloud-pubsub==2.17.0
+
 
